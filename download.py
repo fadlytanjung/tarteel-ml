@@ -23,7 +23,7 @@ DOWNLOADED_AUDIO_CACHE = 'downloaded_audio'
 RAW_AUDIO_CACHE = 'raw_audio'
 
 parser = ArgumentParser(description='Tarteel Audio Downloader')
-parser.add_argument('--csv-url', type=str, default=TARTEEL_V1_CSV_URL)
+parser.add_argument('--dataset-csv-url', type=str, default=TARTEEL_V1_CSV_URL)
 parser.add_argument('--local-csv-filename', type=str, default='local.csv')
 parser.add_argument('--cache-dir', type=str, default='.cache')
 parser.add_argument('-u', '--use-cache', action='store_true')
